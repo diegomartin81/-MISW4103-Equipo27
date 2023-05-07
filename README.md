@@ -1,18 +1,18 @@
 MISW4103-Equipo27
 
-Camilo Romero / Diego Acosta / Diego Martin
+| Miembros del Equipos    | ¿Contribuyó al Trabajo? |
+| ------------- | ------------- |
+| Andres Marin | No |
+| Camilo Romero | Si |
+| Diego Acosta | Si |
+| Diego Martin | Si |
 
-Funcionalidades:
-
-1. Registro de un usuario la aplicación.
-2. Búsqueda de publciaciones, menciones o autores.
-3. Realizar una revisión de la publicación antes de publicarla.
-4. Ordenar los posts en idioma inglés de la A-Z
-5.
-
-| FirstName     | LastName      | City     |
+| Funcionalidad     | Tipo de Escenario      | Nombre del Escenario     |
 | ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
-| Bob           | Test2         | Toronto  |
+| Registro de un usuario la aplicación.  | Negativo | NewYork  |
+| Búsqueda de publciaciones, menciones o autores. | Positivo | Toronto  |
+| Realizar una revisión de la publicación antes de publicarla. | Negativo | Toronto  |
+| Filtrar las publicaciones en idioma español. | Test2         | Positivo |
+| Ordenar alfabéticamente las publicaciones sin aplicar ningún filtro. | Positivo | Toronto  |
 
 
