@@ -7,12 +7,21 @@ MISW4103-Equipo27
 | Diego Acosta | Si |
 | Diego Martin | Si |
 
-| Funcionalidad     | Tipo de Escenario      | Nombre del Escenario     |
+| Funcionalidad     | Tipo de Escenario      | Escenario de Prueba |
 | ------------- | ------------- | -------- |
-| Registro de un usuario la aplicación.  | Negativo | NewYork  |
-| Búsqueda de publciaciones, menciones o autores. | Positivo | Toronto  |
-| Realizar una revisión de la publicación antes de publicarla. | Negativo | Toronto  |
-| Filtrar las publicaciones en idioma español. | Test2         | Positivo |
-| Ordenar alfabéticamente las publicaciones sin aplicar ningún filtro. | Positivo | Toronto  |
-
-
+| Registro de un usuario en la aplicación.  | Hacer click en Subscribe -> No introducir nada Name -> No introducir nada en Email -> Hacer click en Sign up -> Verificar que se haya enviado correo de registro |
+| Registro de un usuario en la aplicación.  | Hacer click en Subscribe -> No introducir nada Name -> Introducir en Email: juan.perez@prueba.com -> Hacer click en Sign up -> Verificar que se haya enviado correo de registro |
+| Registro de un usuario en la aplicación.  | Hacer click en Subscribe -> Introducir en Name: Juan Perez -> No introducir nada en Email -> Hacer click en Sign up -> Verificar que se haya enviado correo de registro |
+| Registro de un usuario en la aplicación.  | Hacer click en Subscribe -> Introducir en Name: Juan Perez -> Introducir en Email: juan.perez@prueba.com -> Hacer click en Sign up -> Verificar que se haya enviado correo de registro |
+| Búsqueda de publciaciones, menciones o autores. | Hacer click en lupa -> Introducir palabra asociada con una publicación no existente -> Verificar que el filtro de la búsqueda se haya arrojado los resultados correspondientes |
+| Búsqueda de publciaciones, menciones o autores. | Hacer click en lupa -> Introducir palabra asociada con una mención existente -> Verificar que el filtro de la búsqueda se haya arrojado los resultados correspondientes |
+| Búsqueda de publciaciones, menciones o autores. | Hacer click en lupa -> Introducir palabra asociada con un autor no exsitente -> Verificar que el filtro de la búsqueda se haya arrojado los resultados correspondientes |
+| Búsqueda de publciaciones, menciones o autores. | Hacer click en lupa -> Introducir palabra asociada con un autor existente -> Verificar que el filtro de la búsqueda se haya arrojado los resultados correspondientes |
+| Crear una publicación. | Hacer click en + al lado de Posts -> Introducir en Post title: Publicación Prueba -> Introducir en Begin writing your post... Publicación Prueba -> Hacer click en Publish -> Hacer click en Continue, final review -> Hacer click en Publish post, right now -> Verificar que la publicación se haya realizado |
+| Crear una publicación. | Hacer click en + al lado de Posts -> Introducir en Post title: Publicación Prueba -> Introducir en Begin writing your post... Publicación Prueba -> Hacer click en Settings -> Introducir palabra en Tags -> Hacer click en Publish -> Hacer click en Continue, final review -> Hacer click en Publish post, right now -> Verificar que la publicación se haya realizado |
+| Crear una publicación. | Hacer click en + al lado de Posts -> Introducir en Post title: Publicación Prueba -> Introducir en Begin writing your post... Publicación Prueba -> Hacer click en Settings -> Introducir en Post URL: ejemplo -> Hacer click en Publish -> Hacer click en Continue, final review -> Hacer click en Publish post, right now -> Verificar que la publicación se haya realizado |
+| Crear una publicación. | Hacer click en + al lado de Posts -> Introducir en Post title: Publicación Prueba -> Introducir en Begin writing your post... Publicación Prueba -> Hacer click en Settings -> Seleccionar Members only en Post access -> Hacer click en Publish -> Hacer click en Continue, final review -> Hacer click en Publish post, right now -> Verificar que la publicación se haya realizado |
+| Filtrar las publicaciones. | Hacer click en Explore -> Introducir en Search levernews.com -> Verificar que las publicaciones se visualicen de acuerdo al criterio seleccionado |
+| Filtrar las publicaciones. | Hacer click en Explore -> Hacer click en Business -> Verificar que las publicaciones se visualicen de acuerdo al criterio seleccionado |
+| Filtrar las publicaciones. | Hacer click en Explore -> Hacer click en Language -> Seleccionar Español -> Verificar que las publicaciones se visualicen de acuerdo al criterio seleccionado |
+| Filtrar las publicaciones. | Hacer click en Explore -> Hacer click en Sort by -> Seleccionar A-Z -> Verificar que las publicaciones se visualicen de acuerdo al criterio seleccionado |
